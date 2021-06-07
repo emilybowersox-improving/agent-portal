@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent-Portal", "Agent-Portal\Agent-Portal.csproj", "{5BC319FC-4A1D-4C94-BF0D-009A9131FE2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11031A39-D6E8-470D-B77B-C20E0D811460}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC319FC-4A1D-4C94-BF0D-009A9131FE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC319FC-4A1D-4C94-BF0D-009A9131FE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC319FC-4A1D-4C94-BF0D-009A9131FE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC319FC-4A1D-4C94-BF0D-009A9131FE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8E67B1B-22B2-46FF-B674-1BE18F023723}
+	EndGlobalSection
+EndGlobal
