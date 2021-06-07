@@ -7,14 +7,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Agent_Portal.Controllers
 {
-    public class AllAgents : Controller
+    public class AllAgentsController : Controller
     {
-   /*     public IActionResult Index()
+        // GET /AllAgents/ 
+        public IActionResult Index()
         {
             return View();
-        }*/
+        }
 
-        // GET /AllAgents/
+/*        // GET /AllAgents/
         public string Index()
         {
             return "here's all the agents";
@@ -24,6 +25,6 @@ namespace Agent_Portal.Controllers
         public string Welcome(string agentName, int agentNumber = 1)
         {
             return HtmlEncoder.Default.Encode($"Hi {agentName} your agent number is {agentNumber}"); 
-        }
+        }*/
     }
 }
